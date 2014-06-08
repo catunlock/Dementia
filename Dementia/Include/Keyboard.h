@@ -1,0 +1,75 @@
+#pragma once
+
+#include "Dementia.h"
+
+namespace Dementia
+{
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Classe encarregada del Taclat que fa de intermediari entre l'usuari i el Sistema 
+/// 			Operatiu.  </summary>
+///
+/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class UTILS_API Keyboard
+{
+public:
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Constructor per defecte. </summary>
+	///
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	Keyboard(void);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Destructor. </summary>
+	///
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	virtual ~Keyboard(void);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Posa com pulsada la tecla pasada per parametre. Aquest metode no s'ha de ultilitzar 
+	/// 			a no ser que sapigues que estas fent.</summary>
+	///
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+	///
+	/// <param name="key">	La tecla que es marcara com pulsada. </param>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	void setKeyPressed(int key);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Posa com alliberada la telca pasada per parametre. Aquest metode no s'ha de ultilitzar
+	/// 			a no ser que sapigues que estas fent.</summary>
+	///
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+	///
+	/// <param name="key">	La tecla que es marcara com alliberada.  </param>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	void setKeyReleased(int key);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Pregunta si la tecla pasada com a parametre esta pulsada. </summary>
+	///
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 14/05/2013. </remarks>
+	///
+	/// <param name="key">	The key. </param>
+	///
+	/// <returns>	true si esta pulsada, false si no. </returns>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	bool isKeyPressed(int key);
+
+private:
+
+	/// <summary>	guarda el estat de totes les tecles que estan contenplades en la WinUser.h.
+	/// 			255 es el numero de tecles virtuals contenplades en la WinUser.h</summary>
+	bool keysPressed[255];
+};
+
+}

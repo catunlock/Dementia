@@ -1,0 +1,64 @@
+	 ============== Registre dels adaptadors disponibles ==============
+		===== Adaptador Numero 0 =====
+	Nom/Descripció fabricant: NVIDIA GeForce GT 330M 
+	Id venedor: 4318
+	Id device: 2601
+	Id subSys: 2422673485
+	Revisió: 162
+	Memòria de video dedicada: 1026031616
+	Memòria del sistema dedicada: 0
+	Memòria del sistema compartida: 1836101632
+	Id adapter (High Part): 0
+	Id adapter (Low Part): 31706
+	Te support per Directx 11?  Si
+		===== Sortides Adaptador Numero 0 =====
+		Amplada: 640 Altura: 480 REFRESH: 59940 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 59940 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 59940 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 59940 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 59940 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 59940 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 59940 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 59940 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 59940 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 1400 Altura: 1050 REFRESH: 59940 / 1000
+		Amplada: 1400 Altura: 1050 REFRESH: 59940 / 1000
+		Amplada: 1440 Altura: 900 REFRESH: 59940 / 1000
+		Amplada: 1440 Altura: 900 REFRESH: 59940 / 1000
+		Amplada: 1680 Altura: 1050 REFRESH: 59940 / 1000
+		Amplada: 1680 Altura: 1050 REFRESH: 59940 / 1000
+		Amplada: 1920 Altura: 1080 REFRESH: 59940 / 1000
+	Numero de sortides: 
+		===== Fi Sortirdes Adaptador Numero 0 =====
+	Numero de sortides: 1
+		===== Fi Adaptador Numero 0 =====
+		===== Adaptador Numero 1 =====
+	Nom/Descripció fabricant: Microsoft Basic Render Driver
+	Id venedor: 5140
+	Id device: 140
+	Id subSys: 0
+	Revisió: 0
+	Memòria de video dedicada: 0
+	Memòria del sistema dedicada: 0
+	Memòria del sistema compartida: 268435456
+	Id adapter (High Part): 0
+	Id adapter (Low Part): 33906
+	Te support per Directx 11?  Si
+		===== Sortides Adaptador Numero 1 =====
+		===== Fi Sortirdes Adaptador Numero 1 =====
+	Numero de sortides: 0
+		===== Fi Adaptador Numero 1 =====
+Total chips gràfics: 2

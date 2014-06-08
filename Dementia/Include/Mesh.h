@@ -1,0 +1,131 @@
+#pragma once
+
+#include "Dementia.h"
+#include "Texture.h"
+#include "Shader.h"
+#include "Geometry.h"
+#include "Entity.h"
+
+namespace Dementia{
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Entenem per mesh la composicio de una geometria amb una textura i un shader. </summary>
+	/// 
+	/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	class UTILS_API Mesh : public Entity
+	{
+	public:
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Constructor per defecte. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		Mesh(void);
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Constructor amb nomes una geometria, es el basic. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <param name="geometry">	[in] La geometria que contindra. </param>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		Mesh(Dementia::Geometry* geometry);
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Constructor complet. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <param name="geometry">	[in] La geometria que contindra. </param>
+		/// <param name="texture"> 	[in] La textura que ultilitzara. </param>
+		/// <param name="shader">  	[in] El shader amb el que es dibuixara. </param>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		Mesh(Dementia::Geometry* geometry, Dementia::Texture* texture, Dementia::Shader* shader);
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Destructor. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		virtual ~Mesh(void);
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Posa o cambia la geometria que contindra. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <param name="geometry">	[in] La geometria. </param>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline void setGeometry(Dementia::Geometry* geometry)	{ m_geometry = geometry; };
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Posa o cambia la textura que ultilitzara </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <param name="texture">	[in] La textura. </param>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline void setTexture(Dementia::Texture* texture)		{ m_texture = texture; };
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Posa o cambia el shader amb el que es dibuixara. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <param name="shader">	[in] El shader. </param>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline void setShader(Dementia::Shader* shader)			{ m_shader = shader; };
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Obte la geometria. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <returns>	La geometria. </returns>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline Dementia::Geometry*	getGeometry()	{ return m_geometry; };
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Obte la textura. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <returns>	La textura. </returns>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline Dementia::Texture*	getTexture()	{ return m_texture; };
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		/// <summary>	Obte el shader. </summary>
+		///
+		/// <remarks>	Alberto Lopez Sanchez i Ruben Bagan Benavides, 29/05/2013. </remarks>
+		///
+		/// <returns>	El shader. </returns>
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		inline Dementia::Shader*	getShader()		{ return m_shader; };
+
+	private:
+
+		/// <summary>	La geometria que conte. </summary>
+		Dementia::Geometry*	m_geometry;
+
+		/// <summary>	La textura que ultilitza. </summary>
+		Dementia::Texture*	m_texture;
+
+		/// <summary>	El shader amb el que dibuixa. </summary>
+		Dementia::Shader*	m_shader;
+	};
+
+}
