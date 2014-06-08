@@ -49,8 +49,8 @@ int main(){
 	int f;
 	int c;
 
-	for(f = -10; f<10; f++){
-		for(c = -10; c<10; c++)
+	for(f = -10; f<100; f++){
+		for(c = -10; c<100; c++)
 		{
 			Dementia::Node* nodo = sceneMgr->createNode(
 				XMVectorSet(f, c, 0.0f, 0.0f),

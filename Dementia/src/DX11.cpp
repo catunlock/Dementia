@@ -331,7 +331,7 @@ void DX11::onResize()
 
 	m_immediateContext->RSSetViewports(1, &m_screenViewport);
 
-	m_camera.SetLens(0.25*MathHelper::Pi, windowWidth / windowHeight, 1.0f, 1000.0f);
+	m_camera.SetLens(0.25f*MathHelper::Pi, windowWidth / windowHeight, 1.0f, 1000.0f);
 	m_camera.UpdateViewMatrix();
 }
 

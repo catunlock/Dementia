@@ -1,49 +1,235 @@
 	 ============== Registre dels adaptadors disponibles ==============
 		===== Adaptador Numero 0 =====
-	Nom/Descripció fabricant: NVIDIA GeForce GT 330M 
+	Nom/Descripció fabricant: NVIDIA GeForce GTX 460
 	Id venedor: 4318
-	Id device: 2601
-	Id subSys: 2422673485
-	Revisió: 162
-	Memòria de video dedicada: 1026031616
+	Id device: 3618
+	Id subSys: 888935512
+	Revisió: 161
+	Memòria de video dedicada: 1018621952
 	Memòria del sistema dedicada: 0
-	Memòria del sistema compartida: 1836101632
+	Memòria del sistema compartida: 2113822720
 	Id adapter (High Part): 0
-	Id adapter (Low Part): 31706
+	Id adapter (Low Part): 42224
 	Te support per Directx 11?  Si
 		===== Sortides Adaptador Numero 0 =====
 		Amplada: 640 Altura: 480 REFRESH: 59940 / 1000
-		Amplada: 640 Altura: 480 REFRESH: 59940 / 1000
-		Amplada: 720 Altura: 480 REFRESH: 59940 / 1000
-		Amplada: 720 Altura: 480 REFRESH: 59940 / 1000
-		Amplada: 720 Altura: 576 REFRESH: 59940 / 1000
-		Amplada: 720 Altura: 576 REFRESH: 59940 / 1000
-		Amplada: 800 Altura: 600 REFRESH: 59940 / 1000
-		Amplada: 800 Altura: 600 REFRESH: 59940 / 1000
-		Amplada: 1024 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1024 Altura: 768 REFRESH: 59940 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 59952 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 75000 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 60317 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 75000 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 75000 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 60317 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 60317 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 75000 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 75000 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 60317 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 75000 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 60004 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 75029 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 75000 / 1000
 		Amplada: 1280 Altura: 720 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 720 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 800 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 800 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 1024 REFRESH: 59940 / 1000
-		Amplada: 1280 Altura: 1024 REFRESH: 59940 / 1000
-		Amplada: 1360 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1360 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1366 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1366 Altura: 768 REFRESH: 59940 / 1000
-		Amplada: 1400 Altura: 1050 REFRESH: 59940 / 1000
-		Amplada: 1400 Altura: 1050 REFRESH: 59940 / 1000
-		Amplada: 1440 Altura: 900 REFRESH: 59940 / 1000
-		Amplada: 1440 Altura: 900 REFRESH: 59940 / 1000
-		Amplada: 1680 Altura: 1050 REFRESH: 59940 / 1000
-		Amplada: 1680 Altura: 1050 REFRESH: 59940 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 75025 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 60000 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 60000 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 60000 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 60000 / 1000
+		Amplada: 1680 Altura: 1050 REFRESH: 60000 / 1000
+		Amplada: 1680 Altura: 1050 REFRESH: 60000 / 1000
+		Amplada: 1920 Altura: 1080 REFRESH: 59940 / 1000
 		Amplada: 1920 Altura: 1080 REFRESH: 59940 / 1000
 	Numero de sortides: 
+		Amplada: 640 Altura: 480 REFRESH: 59952 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 70000 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 72809 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 75000 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 85008 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 99993 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 120008 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 140000 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 144011 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 149999 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 170005 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 200000 / 1000
+		Amplada: 640 Altura: 480 REFRESH: 239990 / 1000
+		Amplada: 720 Altura: 480 REFRESH: 60003 / 1000
+		Amplada: 720 Altura: 576 REFRESH: 50007 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 60317 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 70000 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 72188 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 75000 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 85061 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 100001 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 119972 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 140000 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 144004 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 150006 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 169997 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 200000 / 1000
+		Amplada: 800 Altura: 600 REFRESH: 240001 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 60004 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 70069 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 71996 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 75029 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 84997 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 100001 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 119989 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 139999 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 144002 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 150004 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 169997 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 200002 / 1000
+		Amplada: 1024 Altura: 768 REFRESH: 239999 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 59997 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 70001 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 71998 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 75000 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 84999 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 99999 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 119997 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 140001 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 144003 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 150000 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 170001 / 1000
+		Amplada: 1152 Altura: 864 REFRESH: 200000 / 1000
+		Amplada: 1280 Altura: 720 REFRESH: 60000 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 59870 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 70003 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 71999 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 74893 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 84837 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 99999 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 119798 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 139999 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 143998 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 149998 / 1000
+		Amplada: 1280 Altura: 768 REFRESH: 170001 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 59810 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 69997 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 71998 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 74934 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 84880 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 99999 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 119909 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 140003 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 144002 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 150002 / 1000
+		Amplada: 1280 Altura: 800 REFRESH: 170002 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 60000 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 70001 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 72000 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 75000 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 85002 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 99999 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 119838 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 139998 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 144002 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 150000 / 1000
+		Amplada: 1280 Altura: 960 REFRESH: 170001 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 60020 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 69998 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 71999 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 75025 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 85024 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 100000 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 119958 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 140000 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 143998 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 150001 / 1000
+		Amplada: 1280 Altura: 1024 REFRESH: 170001 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 60015 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 70001 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 71999 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 74999 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 85002 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 100003 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 119967 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 139998 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 144000 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 150000 / 1000
+		Amplada: 1360 Altura: 768 REFRESH: 169997 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 59790 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 70003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 70003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 71998 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 71998 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 74997 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 74997 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 85003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 85003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 100000 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 100000 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 120001 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 120001 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 140003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 140003 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 143999 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 143999 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 150002 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 150002 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 170002 / 1000
+		Amplada: 1366 Altura: 768 REFRESH: 170002 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 69998 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 72001 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 75000 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 85001 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 100001 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 120002 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 140001 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 144000 / 1000
+		Amplada: 1600 Altura: 900 REFRESH: 150002 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 60001 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 70000 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 72000 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 75000 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 84999 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 99999 / 1000
+		Amplada: 1600 Altura: 1024 REFRESH: 120000 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 60000 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 70000 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 72001 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 75000 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 85000 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 100001 / 1000
+		Amplada: 1600 Altura: 1200 REFRESH: 119917 / 1000
+		Amplada: 1680 Altura: 1050 REFRESH: 59954 / 1000
+		Amplada: 1920 Altura: 1080 REFRESH: 60000 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 59885 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 70001 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 72000 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 74930 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 84932 / 1000
+		Amplada: 1920 Altura: 1200 REFRESH: 100001 / 1000
+		Amplada: 1920 Altura: 1440 REFRESH: 60000 / 1000
+		Amplada: 1920 Altura: 1440 REFRESH: 70001 / 1000
+		Amplada: 1920 Altura: 1440 REFRESH: 72000 / 1000
+		Amplada: 1920 Altura: 1440 REFRESH: 75000 / 1000
+		Amplada: 1920 Altura: 1440 REFRESH: 85000 / 1000
+		Amplada: 2048 Altura: 1536 REFRESH: 60000 / 1000
+		Amplada: 2560 Altura: 1600 REFRESH: 59987 / 1000
+	Numero de sortides: 
 		===== Fi Sortirdes Adaptador Numero 0 =====
-	Numero de sortides: 1
+	Numero de sortides: 2
 		===== Fi Adaptador Numero 0 =====
 		===== Adaptador Numero 1 =====
 	Nom/Descripció fabricant: Microsoft Basic Render Driver
@@ -55,7 +241,7 @@
 	Memòria del sistema dedicada: 0
 	Memòria del sistema compartida: 268435456
 	Id adapter (High Part): 0
-	Id adapter (Low Part): 33906
+	Id adapter (Low Part): 44014
 	Te support per Directx 11?  Si
 		===== Sortides Adaptador Numero 1 =====
 		===== Fi Sortirdes Adaptador Numero 1 =====

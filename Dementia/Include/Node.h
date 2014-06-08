@@ -55,6 +55,18 @@ namespace Dementia{
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		~Node	(void);
+
+	public:
+		void* operator new (size_t size) {
+			void * p = _aligned_malloc(size, 16);
+			if (p == 0)  throw std::bad_alloc();
+			return p;
+		}
+
+			void operator delete (void *p) {
+				Node* pc = static_cast<Node*>(p);
+				_aligned_free(p);
+		}
 	public:
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////

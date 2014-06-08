@@ -19,6 +19,17 @@ namespace Dementia{
 		virtual ~DX11(void);
 
 	public:
+		void* operator new (size_t size){
+			void * p = _aligned_malloc(size, 16);
+			if (p == 0)  throw std::bad_alloc();
+			return p;
+		}
+
+			void operator delete (void *p) {
+				DX11* pc = static_cast<DX11*>(p);
+				_aligned_free(p);
+		}
+	public:
 		inline void setBackgroundColor(XMVECTOR backgroundcolor) { m_backgroundColor = backgroundcolor; };
 		inline XMVECTOR getBackgroundColor() { return m_backgroundColor; };
 		inline Dementia::Camera* getCamera() { return &m_camera; };
