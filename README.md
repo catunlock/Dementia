@@ -60,4 +60,4 @@ A complete scene showing all the functionalities of the framework. You can find 
 
 ## Contributors
 
-* [Pheenoom](URL "https://github.com/rbagan")
+* [Pheenoom](https://github.com/rbagan)
