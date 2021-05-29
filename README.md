@@ -1,7 +1,6 @@
 # Dementia
 
-Small 3D engine library in DirectX 11 for Windows. 
-It allows you to create scenes using geometrical basic objects like Cubes, Spheres or Cilinders. Also it  has support for three types of lights. Includes support for mouse and keyboard input.
+Small DirectX 11 3D engine library for Windows. It allows you to create scenes graphs using geometrical basic objects like Cubes, Spheres or Cilinders with textures. Support directional, spot and point lights and includes support for mouse and keyboard input.
 
 ## Documentation
 
